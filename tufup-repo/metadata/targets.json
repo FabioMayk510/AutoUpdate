@@ -2,15 +2,15 @@
  "signatures": [
   {
    "keyid": "9982a01c18690c9d1e81823cf448a70b31e0969bc72962f81ef83d07ee05c79c",
-   "sig": "4802022858818ad54ab6f229b500e46b13fbec839beeec5d110eb90c2a962f5fda9a41769473229a13e7eaa2e412d9dbc757e8959cd5e0aec1594238dd469508"
+   "sig": "a5056fb7c3494aefc4d7f86580fc2edce500b277edefe29925e4703e83a45b3e9ffa62e822335f282a8a14050e613446d5726525a79ea2788aaa910e6d990f0a"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2027-01-21T14:13:28Z",
+  "expires": "2027-01-21T14:34:31Z",
   "spec_version": "1.0.31",
   "targets": {
-   "AppTeste-1.0.1.tar.gz": {
+   "AppTeste-1.0.14.tar.gz": {
     "custom": {
      "tufup": {
       "required": false
@@ -18,233 +18,11 @@
      "user": null
     },
     "hashes": {
-     "sha256": "704d41bbdbfc12f0ba8de5e7748497fcec7a5bd115aa74eacc11b272e9e222ab"
+     "sha256": "38dee704ceec73fed49022c12eeab0259a0421737f2373ae3a7120abfc4052ef"
     },
-    "length": 178
-   },
-   "AppTeste-1.0.10.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "a8ade03649cf79c6219d2237da315f55a90af88cbcd18cd74f2ebc026053f7c6"
-    },
-    "length": 16225274
-   },
-   "AppTeste-1.0.11.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "b29355f9f629626fed0a3af44d8a7c6fd4a1fbc978164c57c42827792f8badcd"
-    },
-    "length": 16225290
-   },
-   "AppTeste-1.0.12.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "45a22be260c0ec98179767934f5b6a8f5dad3e0dd9a579f1912638d927851fed"
-    },
-    "length": 16225672
-   },
-   "AppTeste-1.0.2.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "8f99f14d1a74883c510305288b09973dae7cf880a60970c05cd8f25cfa1c0165"
-    },
-    "length": 180
-   },
-   "AppTeste-1.0.3.patch": {
-    "custom": {
-     "tufup": {
-      "tar_hash": "f68074de4d66b0404b9d2a3e9c7b1bb875a58ef548bed3b06c942710feeb2fa8",
-      "tar_hash_algorithm": "sha256",
-      "tar_size": 10240
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "3a35ccc586b3a7e18c17cfabf844311c6977fe684d6211be69086da1b14edc48"
-    },
-    "length": 513
-   },
-   "AppTeste-1.0.3.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "f8cd52c481ddd0b09c7688f8ec289c28d879b21b90debf5af3fad32c2657fa99"
-    },
-    "length": 450
-   },
-   "AppTeste-1.0.4.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "bd776a01c35c2e18c2dce22f77a6c22463a10c51dc8f307b216f5ab534b6f7ff"
-    },
-    "length": 179
-   },
-   "AppTeste-1.0.5.patch": {
-    "custom": {
-     "tufup": {
-      "tar_hash": "b2618d91a1f2fc7827856d5070069a7671c9eeacdf06b298cc867340dbce8043",
-      "tar_hash_algorithm": "sha256",
-      "tar_size": 10240
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "1000e4514ef8acc52fd7effed9a41813a37c450d16c799a6c1c330483d7c0d23"
-    },
-    "length": 520
-   },
-   "AppTeste-1.0.5.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "b4c8b4e87c828eb0b537060b46d67f473680bbe36a29b11f7e9e3b366b1166ab"
-    },
-    "length": 445
-   },
-   "AppTeste-1.0.6.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "828fb7fa6f829b1a179a2313b0adaa2f03c4226fcc55e90dbf7e3f7e9e0d5714"
-    },
-    "length": 16225897
-   },
-   "AppTeste-1.0.7.patch": {
-    "custom": {
-     "tufup": {
-      "tar_hash": "40427e3e991fef957947d9c07420509c4820f64baff7a09098678f884490076e",
-      "tar_hash_algorithm": "sha256",
-      "tar_size": 16455680
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "cbc1dc58bb00010676dccbd0027ae8ad7ff451ccfd5de891895363fee6d519cd"
-    },
-    "length": 415757
-   },
-   "AppTeste-1.0.7.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "a6e3c20a9d109630731e50db3b123db5fc72b5ac01d772e9cf83fc49fdf58726"
-    },
-    "length": 16225024
-   },
-   "AppTeste-1.0.8.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "e7004432e2384283b5e44e8f0a807323b477d961b8596d8b4711deb7cba62f8d"
-    },
-    "length": 16226167
-   },
-   "AppTeste-1.0.9.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "beaa62c912ce5538ba33ad32b9f594248eb8b262a3fa8d788d09c5a68e155229"
-    },
-    "length": 16225259
-   },
-   "v1.0.10/AppTeste-1.0.10.tar.gz": {
-    "hashes": {
-     "sha256": "c360dca114da89c0be58242a0f54082a250c42c8d2028e0edd41fbeb2240efc5"
-    },
-    "length": 16224772
-   },
-   "v1.0.11/AppTeste-1.0.11.tar.gz": {
-    "hashes": {
-     "sha256": "2671b0aa3b3bee242fac576e5b2f5e7489f92715ada524393e689af0e37c00db"
-    },
-    "length": 16225696
-   },
-   "v1.0.12/AppTeste-1.0.12.tar.gz": {
-    "hashes": {
-     "sha256": "b923d13144b5984a3361ebe45164999afda124ce3ec8492606b33fe59f997122"
-    },
-    "length": 16224224
-   },
-   "v1.0.6/AppTeste-1.0.6.tar.gz": {
-    "hashes": {
-     "sha256": "828fb7fa6f829b1a179a2313b0adaa2f03c4226fcc55e90dbf7e3f7e9e0d5714"
-    },
-    "length": 16225897
-   },
-   "v1.0.7/AppTeste-1.0.7.patch": {
-    "hashes": {
-     "sha256": "cbc1dc58bb00010676dccbd0027ae8ad7ff451ccfd5de891895363fee6d519cd"
-    },
-    "length": 415757
-   },
-   "v1.0.7/AppTeste-1.0.7.tar.gz": {
-    "hashes": {
-     "sha256": "a6e3c20a9d109630731e50db3b123db5fc72b5ac01d772e9cf83fc49fdf58726"
-    },
-    "length": 16225024
-   },
-   "v1.0.8/AppTeste-1.0.8.tar.gz": {
-    "hashes": {
-     "sha256": "0439d3e41ccc369cab56fee6e5b739f03fee46afef09f319273e37198a4755de"
-    },
-    "length": 16225344
-   },
-   "v1.0.9/AppTeste-1.0.9.tar.gz": {
-    "hashes": {
-     "sha256": "beaa62c912ce5538ba33ad32b9f594248eb8b262a3fa8d788d09c5a68e155229"
-    },
-    "length": 16225259
+    "length": 16224228
    }
   },
-  "version": 19
+  "version": 1
  }
 }
