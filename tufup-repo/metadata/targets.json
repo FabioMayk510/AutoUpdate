@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "9982a01c18690c9d1e81823cf448a70b31e0969bc72962f81ef83d07ee05c79c",
+   "sig": "ffa9a0d6643ed35b62a767fc6d942d015d674fbe9a091950304330915a1a8485e2727c10dd57d455fea94f7793f55eb737b15538db112e6f78dfb6afcc8dca09"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-01-21T15:20:09Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "AppTeste-1.0.19.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "500a26eaa9b2d648aadb6a277297458d8a20a5b530c4691c0c90dd88ea57ad63"
+    },
+    "length": 16225194
+   }
+  },
+  "version": 1
+ }
+}
