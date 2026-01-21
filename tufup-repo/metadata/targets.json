@@ -2,26 +2,14 @@
  "signatures": [
   {
    "keyid": "9982a01c18690c9d1e81823cf448a70b31e0969bc72962f81ef83d07ee05c79c",
-   "sig": "1e58932580027b105bd85cb9819ef9b5662c577e0f8e8f7523875b61c730107505c426f933a24f803cc5fa73d0db2d1c2824f0121268ec9920823e038f426605"
+   "sig": "53ebd5093cdff3e03f381cd48bb6bcaed2ca4d93b7211dfa36c845f15996a3fe2afeb5def6e6f29466ff682d04730828a4f05a4baf240d603776b716adc2c602"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2027-01-21T14:51:03Z",
+  "expires": "2027-01-21T14:53:42Z",
   "spec_version": "1.0.31",
   "targets": {
-   "AppTeste-1.0.15.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "b75c7d90dd5948075f0982a211413abaf302f3cd419e26b56edc9df31a585a88"
-    },
-    "length": 16225545
-   },
    "AppTeste-1.0.16.tar.gz": {
     "custom": {
      "tufup": {
@@ -30,11 +18,11 @@
      "user": null
     },
     "hashes": {
-     "sha256": "f35d8a17c32f517ea0b6870803eac744e58d60eae9ef506cfe407c8a1a339599"
+     "sha256": "69e589c6d551bbb4ad551bd4c1cbca94182a04c48d81ab841f0ff0eb4f1483b8"
     },
-    "length": 16225442
+    "length": 16225458
    }
   },
-  "version": 2
+  "version": 1
  }
 }
