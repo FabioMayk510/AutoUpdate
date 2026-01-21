@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "9982a01c18690c9d1e81823cf448a70b31e0969bc72962f81ef83d07ee05c79c",
-   "sig": "356f60ff48d65ea53bc81697c26cd2d07247968d2e4ba256cfadacedf5332bcc0ec33427b758d77a86b44de71d69fe1739cfb4812fb7f40e713c977de54aac0d"
+   "sig": "eb4dd6056b219f34fc0183bcfacf885b4e5ca9a04c89e9bd03e438ec41e9a457e57ce9cc4fb761b9a0753c4d09693489cfa6f3dc9e6594e20069d755e8c5a106"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2027-01-21T12:10:31Z",
+  "expires": "2027-01-21T12:29:50Z",
   "spec_version": "1.0.31",
   "targets": {
    "AppTeste-1.0.1.tar.gz": {
@@ -110,13 +110,51 @@
     },
     "length": 16225897
    },
+   "AppTeste-1.0.7.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "40427e3e991fef957947d9c07420509c4820f64baff7a09098678f884490076e",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 16455680
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "cbc1dc58bb00010676dccbd0027ae8ad7ff451ccfd5de891895363fee6d519cd"
+    },
+    "length": 415757
+   },
+   "AppTeste-1.0.7.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "a6e3c20a9d109630731e50db3b123db5fc72b5ac01d772e9cf83fc49fdf58726"
+    },
+    "length": 16225024
+   },
    "v1.0.6/AppTeste-1.0.6.tar.gz": {
     "hashes": {
      "sha256": "828fb7fa6f829b1a179a2313b0adaa2f03c4226fcc55e90dbf7e3f7e9e0d5714"
     },
     "length": 16225897
+   },
+   "v1.0.7/AppTeste-1.0.7.patch": {
+    "hashes": {
+     "sha256": "cbc1dc58bb00010676dccbd0027ae8ad7ff451ccfd5de891895363fee6d519cd"
+    },
+    "length": 415757
+   },
+   "v1.0.7/AppTeste-1.0.7.tar.gz": {
+    "hashes": {
+     "sha256": "a6e3c20a9d109630731e50db3b123db5fc72b5ac01d772e9cf83fc49fdf58726"
+    },
+    "length": 16225024
    }
   },
-  "version": 7
+  "version": 8
  }
 }
